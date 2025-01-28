@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: "Times New Roman", Times, serif, sans-serif;
+}
+
+.minha-imagem {
+    width: 500px;
+    height: auto;
+    border: 2px solid #b0feff;
+}
+
+#texto, #texto1 {
+    color: #b0feff;
+    margin-top: 20px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 25%;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b0feff;
+}
+
+.popup-content {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    color: #b0feff;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #b0ffb0;
+}
+
+.popup h1 {
+    color: #ffffb0;
+}
+
+.popup p {
+    color: #b0feff;
+}
