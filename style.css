@@ -53,7 +53,7 @@ body {
   color: #b0ffb0;
 }
 
-.popup h1 {
+.popup h1, .popup h2 {
   color: #ffffb0;
 }
 
@@ -61,8 +61,17 @@ body {
   color: #b0feff;
 }
 
-/* Media Queries para dispositivos móveis */
 @media (max-width: 600px) {
+  .minha-imagem {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #texto {
+    padding: 0 5px;
+    font-size: 1rem;
+  }
+
   .popup {
     width: 90%;
     padding: 15px;
